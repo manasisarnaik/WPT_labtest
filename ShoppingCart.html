@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Shopping Cart</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <h1 style="text-align: center;">Online Shopping</h1>
+    </nav>
+    <div class="row" style="background-color: bisque; margin-top: 20px;">
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/image1.jpg" style="width: 200px; height: 200px;">
+            <h3 id="top">Top</h3>
+            <p id="price1">Price: Rs.500</p>
+            <p>Pink Top with flared sleeves</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/image2.jpg" style="width: 200px; height: 200px;">
+            <h3>Dress</h3>
+            <p id="price2">Price: Rs.1000</p>
+            <p>Pink Top with flared sleeves</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/image3.jpg" style="width: 200px; height: 200px;">
+            <h3>Top & Maxi</h3>
+            <p id="price3">Price: Rs.2000</p>
+            <p>Pink Maxi paired with black top and white jacket.</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col"
+        >
+            <input type="checkbox" id="addtocart">
+            <img src="images/image4.jpg" style="width: 200px; height: 200px;">
+            <h3>Blue Jeans</h3>
+            <p id="price4">Price: Rs.1500</p>
+            <p>Blue skin tight jeans</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+    </div>
+
+    <div class="row" style="background-color: whitesmoke; margin-top: 20px;">
+        <div class="col">
+            <input type="checkbox" id="addtocart" >
+            <img src="images/menimg.jpg" style="width: 200px; height: 200px;">
+            <h3>Jeans</h3>
+            <p>Price: Rs.1500</p>
+            <p>Grey men jeans</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/menimg1.jpg" style="width: 200px; height: 200px;">
+            <h3>Denim jacket</h3>
+            <p>Price: Rs.1000</p>
+            <p>Blue denim jacket</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/menimg2.jpg" style="width: 200px; height: 200px;">
+            <h3>Top</h3>
+            <p>Price: Rs.500</p>
+            <p>Pink Top with flared sleeves</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/menimg3.jpg" style="width: 200px; height: 200px;">
+            <h3>Shirt</h3>
+            <p>Price: Rs.1000</p>
+            <p>Grey Shirt</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+    </div>
+
+    <div class="row" style="background-color: bisque;">
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/baby.jpg" style="width: 200px; height: 200px;">
+            <h3>Dungry</h3>
+            <p>Price: Rs.500</p>
+            <p>Grey Dungry</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/boy1.jpg" style="width: 200px; height: 200px;">
+            <h3>Shirt</h3>
+            <p>Price: Rs.800</p>
+            <p>Chex Boy Shirt</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/boy2.jpg" style="width: 200px; height: 200px;">
+            <h3>Baby Dress</h3>
+            <p>Price: Rs.1000</p>
+            <p>Baby Dress set</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/boy3.jpg" style="width: 200px; height: 200px;">
+            <h3>Suite</h3>
+            <p>Price: Rs.1500</p>
+            <p>kid grey Suit</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+    </div>
+
+    <div class="row" style="background-color:whitesmoke;">
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/girl1.jpg" style="width: 200px; height: 200px;">
+            <h3>Frok</h3>
+            <p>Price: Rs.500</p>
+            <p>White cotton frok</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/girl2.jpg" style="width: 200px; height: 200px;">
+            <h3>Dress</h3>
+            <p>Price: Rs.1500</p>
+            <p>Beautiful red Dress</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/girl3.jpg" style="width: 200px; height: 200px;">
+            <h3>Sweater</h3>
+            <p>Price: Rs.500</p>
+            <p>Black Sweater</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+
+        <div class="col">
+            <input type="checkbox" id="addtocart">
+            <img src="images/girl4.jpg" style="width: 200px; height: 200px;">
+            <h3>white Frok</h3>
+            <p>Price: Rs.700</p>
+            <p>White floral dress</p>
+            Quantity:&emsp;&nbsp;<input type="number" min="1">
+        </div>
+    </div>
+
+    <div class="cart-buttons">  
+        <button id="checkout" style="background:blue; color: white; float: right; border-radius: 30px; margin: 10px;" onclick="cart.html">Go to Cart</button>
+      </div>
+    </div>
+</body>
+</html>
